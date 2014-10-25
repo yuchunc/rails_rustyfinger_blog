@@ -40,3 +40,16 @@ gem 'spring',        group: :development
 
 gem 'slim'
 gem 'slim-rails'
+
+gem 'devise'
+
+group :development do
+  gem 'xray-rails'
+end
+
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
+  gem 'ffaker'
+end
