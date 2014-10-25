@@ -41,7 +41,7 @@ gem 'spring',        group: :development
 gem 'slim'
 gem 'slim-rails'
 
-gem 'devise'
+gem 'figaro'
 
 group :development do
   gem 'xray-rails'
