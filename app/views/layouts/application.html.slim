@@ -3,13 +3,12 @@ html
   head
     title == "The RustyFinger Blog"
     = stylesheet_link_tag "application", media: 'all'
-    = stylesheet_link_tag "general", media: 'all'
     = javascript_include_tag 'application'
     = csrf_meta_tags
 
 body
   .header
-    | ohei
+    /| ohei?
     = yield :header_link
   |ohei ohei
   = yield
