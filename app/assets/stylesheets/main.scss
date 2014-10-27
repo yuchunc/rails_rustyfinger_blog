@@ -1,4 +1,35 @@
 /********************
+ General
+ *******************/
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h1, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 68px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 52px;
+  font-weight: normal;
+}
+
+/********************
  Heading
  *******************/
 
@@ -9,3 +40,21 @@
   width: auto;
   height: 120px;
 }
+
+.logo {
+  z-index: 5;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 60px;
+  height: 60px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: red;
+}
+
+/********************
+ Posts
+ *******************/
