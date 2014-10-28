@@ -22,8 +22,6 @@ module RustyfingerBlog
 
     config.generators do |g|
       g.template_engine :slim
-      g.view_specs      false
-      g.helper_specs    false
     end
   end
 end
