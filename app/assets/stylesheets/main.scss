@@ -29,6 +29,11 @@ h3 {
   font-weight: normal;
 }
 
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
 /********************
  Heading
  *******************/
@@ -67,3 +72,15 @@ h3 {
 /********************
  Posts
  *******************/
+
+.posts {
+  .post {
+    margin: 40px inherit;
+
+
+    .title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+}
