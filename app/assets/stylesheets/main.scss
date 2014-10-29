@@ -74,13 +74,18 @@ a:visited {
   margin: 1.5em auto;
 }
 
+body {
+  background-color: #f6f6f6
+}
+
 /********************
  Posts
  *******************/
 
 .posts {
   .post {
-    margin: 40px inherit;
+    padding: 40px inherit;
+
 
     .title {
       font-size: 24px;
