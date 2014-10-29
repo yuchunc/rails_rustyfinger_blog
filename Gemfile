@@ -46,6 +46,7 @@ gem 'figaro'
 group :development do
   gem 'spring'
   gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'xray-rails'
   gem 'pry-rails'
   gem 'pry-doc'

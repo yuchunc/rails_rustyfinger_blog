@@ -7,8 +7,7 @@ html
     = csrf_meta_tags
 
 body
-  - header_link = yield :header_link
-  = link_to header_link ||= posts_path
+  = link_to @header_link
     .header
       h1.logo Mickey
       /| ohei?
