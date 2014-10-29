@@ -1,5 +1,5 @@
 /********************
- General
+ Fonts
  *******************/
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -53,6 +53,15 @@ h3 {
   white-space: nowrap;
   overflow: hidden;
   background-color: red;
+}
+
+/********************
+ General
+ *******************/
+
+.main {
+  width: 83%;
+  margin: 1.5em auto;
 }
 
 /********************

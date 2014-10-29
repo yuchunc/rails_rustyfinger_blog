@@ -2,7 +2,7 @@ FactoryGirl.define do
   factory :post do
     title {Faker::Lorem.sentence}
     excerpt {Faker::Lorem.paragraph 2}
-    content {Faker::Lorem.paragraphs 5}
+    content {(Faker::Lorem.paragraphs 5).join(". ")}
   end
 end
 
