@@ -49,6 +49,9 @@ a:visited {
   right: 0;
   width: auto;
   height: 120px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
@@ -80,8 +83,10 @@ body {
 
 .posts {
   .post {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    width: 84%;
+    padding: 1.2em 8%;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 16px;
 
     .title {
       font-size: 24px;
@@ -89,9 +94,7 @@ body {
     }
   }
 
-  article {
-    width: 83%;
-    margin: 1.5em auto;
-    border-bottom: 1px solid #E5E5E5;
+  article:hover {
+    background-color: white;
   }
 }

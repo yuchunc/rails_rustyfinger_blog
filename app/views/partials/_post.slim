@@ -1,4 +1,6 @@
-article id="post-#{post.id}"
-  = link_to post_path(post), class: 'post'
+article class="post" id="post-#{post.id}"
+  = link_to post_path(post)
     h3.title
       == post.title
+    p.excerpt
+      == post.excerpt
