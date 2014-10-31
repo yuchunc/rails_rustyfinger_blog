@@ -77,6 +77,18 @@ body {
   background-color: #f6f6f6
 }
 
+.container {
+  padding: 0 8% 2em;
+}
+
+.color_link:link {
+  color: #1DF9FF
+}
+
+.color_link:visited {
+  color: #1DF9FF
+}
+
 /********************
  Posts Index
  *******************/
@@ -103,7 +115,4 @@ body {
  Posts Show
  *******************/
 .posts.show {
-  .container {
-    padding: 0 8% 2em;
-  }
 }
