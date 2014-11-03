@@ -4,9 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :set_header_link
 
-  def about
-  end
-
 private
   def set_header_link
     @header_link ||= root_path
