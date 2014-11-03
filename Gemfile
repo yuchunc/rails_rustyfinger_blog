@@ -37,6 +37,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Use debugger
 # gem 'debugger', group: [:development, :test
+gem 'omniauth-facebook'
 
 gem 'slim'
 gem 'slim-rails'
@@ -47,7 +48,6 @@ group :development do
   gem 'spring'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'xray-rails'
   gem 'pry-rails'
   gem 'pry-doc'
 end
