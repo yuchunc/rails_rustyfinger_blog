@@ -1,2 +1,3 @@
 This was an attempt to quickly establish my blog, with focus on visual.
+
 But it was taking too long, so I went with Octopress.
