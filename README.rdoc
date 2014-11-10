@@ -1,3 +1,3 @@
 This was an attempt to quickly establish my blog, with focus on visual.
 
-But it was taking too long, so I went with Octopress.
+But it was taking too long and I would need to worry about deploying, so I went with Octopress.
